@@ -12,12 +12,13 @@ let data = {
   phone: "1-770-736-8031 x56442",
   website: "hildegard.org",
 };
-
+console.log("jawaban a ");
 const change = { ...data, name: "Yabes Elkana Zega", email: "yabeszega@gmail.com", username: "yabesz", honi: ["ngoding", "bola", "music"] };
 const universal = { ...data, ...change };
 console.log(universal);
 console.log("=================================================================================");
 
+console.log("jawaban b ");
 const { street, city } = data.address;
 console.log(street);
 console.log(city);
