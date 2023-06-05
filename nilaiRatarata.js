@@ -1,6 +1,6 @@
-const mtk = 90;
-const bahasaIndonesia = 90;
-const bahasaInggris = 60;
+const mtk = 99;
+const bahasaIndonesia = "";
+const bahasaInggris = 90;
 const ipa = 90;
 
 const cek = (nilai1, nilai2, nilai3, nilai4) => {
