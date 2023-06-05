@@ -5,6 +5,10 @@ const ipa = 69;
 
 const nilai = (mtk + bahasaIndonesia + bahasaInggris + ipa) / 4;
 
-const cekNum = typeof nilai !== "number" ? " input Tidak number " : nilai > 90 ? "Nilai A" : nilai > 80 ? "Nilai B" : nilai > 70 ? " Nilai C" : nilai > 60 ? "Nilai D" : "Nilai E";
-console.log(`Nilai = ${nilai}
+const cek = (data) => {
+  const cekNum = typeof data !== "number" ? " input Tidak number " : data > 90 ? "A" : data > 80 ? "B" : data > 70 ? "C" : data > 60 ? "D" : "Nilai E";
+  console.log(`Nilai = ${nilai}
 GREAD = ${cekNum}`);
+};
+
+cek(nilai);

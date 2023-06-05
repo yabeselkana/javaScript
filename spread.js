@@ -13,12 +13,16 @@ let data = {
   website: "hildegard.org",
 };
 console.log("jawaban a ");
-const change = { ...data, name: "Yabes Elkana Zega", email: "yabeszega@gmail.com", username: "yabesz", honi: ["ngoding", "bola", "music"] };
+const change = { ...data, name: "Yabes Elkana Zega", email: "yabeszega@gmail.com", username: "yabesz", hobi: ["ngoding", "bola", "music"] };
+
 const universal = { ...data, ...change };
 console.log(universal);
+
 console.log("=================================================================================");
 
 console.log("jawaban b ");
+
 const { street, city } = data.address;
+
 console.log(street);
 console.log(city);
